@@ -24,6 +24,9 @@ function loadFiles() {
 
     div.innerHTML = `
       <h3>${file.name}</h3>
+      <a href="${file.path}" target="_blank">
+        <button>Abrir</button>
+      </a>
       <a href="${file.path}" download>
         <button>Baixar</button>
       </a>
