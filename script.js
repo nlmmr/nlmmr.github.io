@@ -1,15 +1,10 @@
 
 
-// LISTA DE ARQUIVOS (adicione seus PDFs aqui)
 const files = [
   {
     name: "Exemplo PDF 1",
     path: "files/Mec_stat.pdf"
   },
-  {
-    name: "Exemplo PDF 2",
-    path: "files/exemplo2.pdf"
-  }
 ];
 
 const container = document.getElementById("file-list");
