@@ -1,15 +1,18 @@
+document.addEventListener("DOMContentLoaded", () => {
+  const files = [
+    {
+      name: "Termodinâmica Estatística",
+      path: "files/Mec_stat.pdf"
+    }
+  ];
 
+  const container = document.getElementById("file-list");
 
-const files = [
-  {
-    name: "Termodinâmica Estatística",
-    path: "files/Mec_stat.pdf"
-  },
-];
+  if (!container) {
+    console.error("Elemento #file-list não encontrado!");
+    return;
+  }
 
-const container = document.getElementById("file-list");
-
-function loadFiles() {
   files.forEach(file => {
     const div = document.createElement("div");
     div.className = "file-card";
@@ -26,6 +29,4 @@ function loadFiles() {
 
     container.appendChild(div);
   });
-}
-
-loadFiles();
+});
