@@ -2,7 +2,7 @@
 
 const files = [
   {
-    name: "Exemplo PDF 1",
+    name: "Termodinâmica Estatística",
     path: "files/Mec_stat.pdf"
   },
 ];
