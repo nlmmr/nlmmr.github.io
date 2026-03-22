@@ -7,7 +7,7 @@ script.js
 const files = [
   {
     name: "Exemplo PDF 1",
-    path: "files/exemplo1.pdf"
+    path: "files/Mec_stat.pdf"
   },
   {
     name: "Exemplo PDF 2",
