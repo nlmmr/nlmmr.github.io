@@ -1,7 +1,4 @@
 
-<!-- =========================
-script.js
-========================= -->
 
 // LISTA DE ARQUIVOS (adicione seus PDFs aqui)
 const files = [
